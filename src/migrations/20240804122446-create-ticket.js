@@ -13,6 +13,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      content: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       recepientEmail: {
         type: Sequelize.STRING,
         allowNull: false,
